@@ -20,20 +20,15 @@ class CombineCardView: UIView {
         }
     }
     
-    let fotoImageView: UIImageView = {
-        let imageView = UIImageView()
-        imageView.image = UIImage(named: "pessoa-1")
-        imageView.contentMode = .scaleAspectFill
-        imageView.clipsToBounds = true
-        return imageView;
-    }()
+    let fotoImageView: UIImageView = .fotoImageView()
     
     let nameLabel: UILabel = .textBoldLabel(32, textColor: .white)
     let idadeLabel: UILabel = .textLabel(28, textColor: .white)
     let fraselabel: UILabel = .textLabel(18, textColor: .white, numberOfLines: 2)
     
-    let deslikeImageView: UIImageView
-    
+    let likeImageView: UIImageView = .iconCard(named: "card-like")
+    let deslikeImageView: UIImageView = .iconCard(named: "card-deslike")
+        
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -41,16 +36,30 @@ class CombineCardView: UIView {
         layer.borderColor = UIColor.lightGray.cgColor
         layer.cornerRadius = 8
         clipsToBounds = true
-        
-        nameLabel.text = "Ana Laura"
-        idadeLabel.text = "20"
-        fraselabel.text = "O último a dar match chama"
-        
+                
         nameLabel.adicionaShadow()
         idadeLabel.adicionaShadow()
         fraselabel.adicionaShadow()
         
         addSubview(fotoImageView)
+        
+        addSubview(deslikeImageView)
+        deslikeImageView.preencher(
+            top: topAnchor,
+            leading: nil,
+            trailing: trailingAnchor,
+            bottom: nil,
+            padding: .init(top: 20, left: 0, bottom: 0, right: 20)
+        )
+        
+        addSubview(likeImageView)
+        likeImageView.preencher(
+            top: topAnchor,
+            leading: leadingAnchor,
+            trailing: nil,
+            bottom: nil,
+            padding: .init(top: 20, left: 20, bottom: 0, right: 0)
+        )
         
         fotoImageView.preencherSuperview()
         
