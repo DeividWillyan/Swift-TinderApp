@@ -16,6 +16,9 @@
 		8C5548C525D446D500B8468E /* CombineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5548C425D446D500B8468E /* CombineVC.swift */; };
 		8C5548CA25D4475B00B8468E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5548C925D4475B00B8468E /* UIView.swift */; };
 		8C5548CE25D4477E00B8468E /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5548CD25D4477E00B8468E /* UILabel.swift */; };
+		8C5548D225D4496000B8468E /* CombineCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5548D125D4496000B8468E /* CombineCardView.swift */; };
+		8C5548D725D4529900B8468E /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5548D625D4529900B8468E /* Usuario.swift */; };
+		8C5548DC25D4536400B8468E /* UsuarioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5548DB25D4536400B8468E /* UsuarioService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		8C5548C425D446D500B8468E /* CombineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineVC.swift; sourceTree = "<group>"; };
 		8C5548C925D4475B00B8468E /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		8C5548CD25D4477E00B8468E /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		8C5548D125D4496000B8468E /* CombineCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCardView.swift; sourceTree = "<group>"; };
+		8C5548D625D4529900B8468E /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		8C5548DB25D4536400B8468E /* UsuarioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 		8C5548AD25D445F600B8468E /* TInderApp */ = {
 			isa = PBXGroup;
 			children = (
+				8C5548DA25D4535800B8468E /* Service */,
+				8C5548D525D4528B00B8468E /* Model */,
+				8C5548D025D4495000B8468E /* View */,
 				8C5548C825D4473B00B8468E /* Lib */,
 				8C5548C325D446C300B8468E /* Controller */,
 				8C5548AE25D445F600B8468E /* AppDelegate.swift */,
@@ -90,6 +99,30 @@
 				8C5548CD25D4477E00B8468E /* UILabel.swift */,
 			);
 			path = Lib;
+			sourceTree = "<group>";
+		};
+		8C5548D025D4495000B8468E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8C5548D125D4496000B8468E /* CombineCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8C5548D525D4528B00B8468E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C5548D625D4529900B8468E /* Usuario.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C5548DA25D4535800B8468E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8C5548DB25D4536400B8468E /* UsuarioService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,8 +195,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C5548DC25D4536400B8468E /* UsuarioService.swift in Sources */,
+				8C5548D725D4529900B8468E /* Usuario.swift in Sources */,
 				8C5548CA25D4475B00B8468E /* UIView.swift in Sources */,
 				8C5548C525D446D500B8468E /* CombineVC.swift in Sources */,
+				8C5548D225D4496000B8468E /* CombineCardView.swift in Sources */,
 				8C5548B325D445F600B8468E /* ViewController.swift in Sources */,
 				8C5548AF25D445F600B8468E /* AppDelegate.swift in Sources */,
 				8C5548CE25D4477E00B8468E /* UILabel.swift in Sources */,
