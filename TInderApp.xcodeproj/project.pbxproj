@@ -19,6 +19,7 @@
 		8C5548D225D4496000B8468E /* CombineCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5548D125D4496000B8468E /* CombineCardView.swift */; };
 		8C5548D725D4529900B8468E /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5548D625D4529900B8468E /* Usuario.swift */; };
 		8C5548DC25D4536400B8468E /* UsuarioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5548DB25D4536400B8468E /* UsuarioService.swift */; };
+		8C5548E025D456DE00B8468E /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5548DF25D456DE00B8468E /* UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		8C5548D125D4496000B8468E /* CombineCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCardView.swift; sourceTree = "<group>"; };
 		8C5548D625D4529900B8468E /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		8C5548DB25D4536400B8468E /* UsuarioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioService.swift; sourceTree = "<group>"; };
+		8C5548DF25D456DE00B8468E /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				8C5548C925D4475B00B8468E /* UIView.swift */,
 				8C5548CD25D4477E00B8468E /* UILabel.swift */,
+				8C5548DF25D456DE00B8468E /* UIImageView.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				8C5548C525D446D500B8468E /* CombineVC.swift in Sources */,
 				8C5548D225D4496000B8468E /* CombineCardView.swift in Sources */,
 				8C5548B325D445F600B8468E /* ViewController.swift in Sources */,
+				8C5548E025D456DE00B8468E /* UIImageView.swift in Sources */,
 				8C5548AF25D445F600B8468E /* AppDelegate.swift in Sources */,
 				8C5548CE25D4477E00B8468E /* UILabel.swift in Sources */,
 				8C5548B125D445F600B8468E /* SceneDelegate.swift in Sources */,

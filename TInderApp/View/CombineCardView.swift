@@ -32,6 +32,8 @@ class CombineCardView: UIView {
     let idadeLabel: UILabel = .textLabel(28, textColor: .white)
     let fraselabel: UILabel = .textLabel(18, textColor: .white, numberOfLines: 2)
     
+    let deslikeImageView: UIImageView
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
