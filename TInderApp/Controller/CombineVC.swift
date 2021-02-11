@@ -107,6 +107,10 @@ extension CombineVC {
             card.usuario = usuario
             card.tag = usuario.id
             
+            card.callback = { (data) in
+                self.visualizarDetalhe(usuario: data)
+            }
+            
             let gesture = UIPanGestureRecognizer()
             gesture.addTarget(self, action: #selector(handlerCard))
             
@@ -127,12 +131,21 @@ extension CombineVC {
         if(usuario.match) {
             
             let matchVC = MatchVC()
+            matchVC.usuario = usuario;
             matchVC.modalPresentationStyle = .fullScreen
             
             self.present(matchVC, animated: true, completion: nil)
                         
         }
     }
+    
+    func visualizarDetalhe (usuario: Usuario) {
+        let detalheVC = DetalheVC()
+        detalheVC.modalPresentationStyle = .fullScreen
+        
+        self.present(detalheVC, animated: true, completion: nil)
+    }
+    
 }
 
 extension CombineVC {

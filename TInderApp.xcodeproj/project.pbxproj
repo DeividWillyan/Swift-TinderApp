@@ -23,6 +23,7 @@
 		8C5548E425D45CF000B8468E /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5548E325D45CF000B8468E /* UIButton.swift */; };
 		8C5548E725D46EAC00B8468E /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5548E625D46EAC00B8468E /* Loading.swift */; };
 		8C5548EA25D4BBAC00B8468E /* MatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5548E925D4BBAC00B8468E /* MatchVC.swift */; };
+		8CB31E7E25D5BA1300D03245 /* DetalheVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB31E7D25D5BA1300D03245 /* DetalheVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		8C5548E325D45CF000B8468E /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		8C5548E625D46EAC00B8468E /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		8C5548E925D4BBAC00B8468E /* MatchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchVC.swift; sourceTree = "<group>"; };
+		8CB31E7D25D5BA1300D03245 /* DetalheVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				8C5548C425D446D500B8468E /* CombineVC.swift */,
 				8C5548E925D4BBAC00B8468E /* MatchVC.swift */,
+				8CB31E7D25D5BA1300D03245 /* DetalheVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				8C5548C525D446D500B8468E /* CombineVC.swift in Sources */,
 				8C5548D225D4496000B8468E /* CombineCardView.swift in Sources */,
 				8C5548B325D445F600B8468E /* ViewController.swift in Sources */,
+				8CB31E7E25D5BA1300D03245 /* DetalheVC.swift in Sources */,
 				8C5548E025D456DE00B8468E /* UIImageView.swift in Sources */,
 				8C5548AF25D445F600B8468E /* AppDelegate.swift in Sources */,
 				8C5548E425D45CF000B8468E /* UIButton.swift in Sources */,
