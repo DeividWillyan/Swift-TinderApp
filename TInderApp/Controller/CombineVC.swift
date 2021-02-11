@@ -36,12 +36,23 @@ class CombineVC: UIViewController {
         
         self.adicionaHeader()
         self.adicionarFooter()
-//        self.buscaUsuarios()
+        self.buscaUsuarios()
     }
     
     func buscaUsuarios () {
-        self.usuarios = UsuarioService.shared.buscaUsuarios();
-        self.adicionarCards()
+//        self.usuarios = UsuarioService.shared.buscaUsuarios();
+//        self.adicionarCards()
+        
+        UsuarioService.shared.buscaUsuarios { (usuarios, err) in
+            if let usuarios = usuarios {
+                
+                DispatchQueue.main.async {
+                    self.usuarios = usuarios
+                    self.adicionarCards()
+                }
+                
+            }
+        }
     }
     
 }
